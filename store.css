@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* HEADER / NAVIGAION */
+.mainHeader {
+  background-color: rgb(42, 92, 0);
+  color: #fff;
+}
+
+.mainHeader a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mainNavigation {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0 2rem 1rem;
+}
+
+.mainNavigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainNavigation ul li {
+  list-style: none;
+  padding: 2rem;
+  
+}
+
+.mainNavigation ul li a {
+  transition: all .2s ease;
+}
+
+.mainNavigation ul li a:hover {
+  color: lightgreen;
+  border-bottom: 2px solid lightgreen;
+}
+
+/* MAIN CONTENT AREA */
+
+#masthead {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.img-container {
+  width: 100%;
+  text-align: center;
+}
+
+/* FOOTER */
+
+#site-info {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* OASISGARDEN HTML */
+
+.mainOasis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainOasis img {
+  width: 8rem;
+  margin-left: 3rem;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input-group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input-group label {
+  font-size: 1.5rem;
+}
+
+.input-group input,
+textarea {
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.input-group input:focus,
+textarea {
+  border:3px solid rgb(42, 92, 0);
+}
+
+.inputSubmit {
+  background-color: lightgreen;
+  border: 3px solid rgb(42, 92, 0);
+  font-size: 1.2rem;
+  transition: all .2s ease;
+}
+
+.inputSubmit:hover {
+  background-color: rgb(42, 92, 0);
+  border: 3px solid lightgreen;
+  color: white;
+}
